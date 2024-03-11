@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "featured_products",
+  "info": {
+    "singularName": "featured-product",
+    "pluralName": "featured-products",
+    "displayName": "featuredProduct"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text",
+      "required": true
+    },
+    "Image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "price": {
+      "type": "decimal",
+      "required": true
+    }
+  }
+}

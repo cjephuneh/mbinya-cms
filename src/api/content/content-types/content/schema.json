@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contents",
+  "info": {
+    "singularName": "content",
+    "pluralName": "contents",
+    "displayName": "content",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Home_title": {
+      "type": "string",
+      "required": true,
+      "maxLength": 250
+    },
+    "button1": {
+      "type": "string",
+      "required": true
+    },
+    "button2": {
+      "type": "string",
+      "required": true
+    },
+    "button3": {
+      "type": "string"
+    },
+    "footer_description": {
+      "type": "text"
+    },
+    "sub_title": {
+      "type": "text"
+    }
+  }
+}
