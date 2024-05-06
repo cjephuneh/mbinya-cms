@@ -4,11 +4,13 @@
   "version": "0.1.0",
   "description": "A Strapi application",
   "scripts": {
+    "preinstall": "rm -rf node_modules/.cache && npm cache clean --force",
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
     "strapi": "strapi"
   },
+  
   "dependencies": {
     "@strapi/plugin-cloud": "4.20.3",
     "@strapi/plugin-i18n": "4.20.3",
@@ -29,8 +31,8 @@
     "uuid": "c33fcde7-7bf7-456a-b008-d5bcdfc2aba3"
   },
   "engines": {
-    "node": ">=18.0.0 <=20.x.x",
-    "npm": ">=6.0.0"
+    "node": "19.9.0",
+    "npm": "7.24.0"
   },
   "license": "MIT"
 }
